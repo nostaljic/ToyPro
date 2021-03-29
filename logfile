@@ -1,0 +1,27 @@
+2021-03-29 22:10:21.010 JST [15984] LOG:  starting PostgreSQL 13.1, compiled by Visual C++ build 1916, 64-bit
+2021-03-29 22:10:21.017 JST [15984] LOG:  listening on IPv6 address "::1", port 5432
+2021-03-29 22:10:21.017 JST [15984] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-03-29 22:10:21.128 JST [2552] LOG:  database system was shut down at 2021-03-29 22:09:21 JST
+2021-03-29 22:10:21.182 JST [15984] LOG:  database system is ready to accept connections
+2021-03-29 22:10:30.885 JST [3420] FATAL:  database "toypro" does not exist
+2021-03-29 22:10:45.347 JST [17008] ERROR:  canceling statement due to user request
+2021-03-29 22:10:45.347 JST [23104] ERROR:  canceling statement due to user request
+2021-03-29 22:10:45.347 JST [15984] LOG:  received fast shutdown request
+2021-03-29 22:10:45.407 JST [15984] LOG:  aborting any active transactions
+2021-03-29 22:10:45.407 JST [15984] LOG:  background worker "logical replication launcher" (PID 17008) exited with exit code 1
+2021-03-29 22:10:45.426 JST [18676] LOG:  shutting down
+2021-03-29 22:10:45.582 JST [15984] LOG:  database system is shut down
+2021-03-29 22:30:48.365 JST [15816] LOG:  starting PostgreSQL 13.1, compiled by Visual C++ build 1916, 64-bit
+2021-03-29 22:30:48.372 JST [15816] LOG:  listening on IPv6 address "::1", port 5432
+2021-03-29 22:30:48.372 JST [15816] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-03-29 22:30:48.586 JST [16228] LOG:  database system was shut down at 2021-03-29 22:30:23 JST
+2021-03-29 22:30:48.673 JST [15816] LOG:  database system is ready to accept connections
+2021-03-29 22:32:42.344 JST [820] ERROR:  role "mynonsuperuser" does not exist
+2021-03-29 22:32:42.344 JST [820] STATEMENT:  CREATE DATABASE jydb OWNER mynonsuperuser;
+2021-03-29 23:39:07.959 JST [15816] LOG:  received fast shutdown request
+2021-03-29 23:39:08.114 JST [15816] LOG:  aborting any active transactions
+2021-03-29 23:39:08.130 JST [3692] FATAL:  terminating connection due to administrator command
+2021-03-29 23:39:08.171 JST [18952] ERROR:  canceling statement due to user request
+2021-03-29 23:39:08.175 JST [15816] LOG:  background worker "logical replication launcher" (PID 18952) exited with exit code 1
+2021-03-29 23:39:08.176 JST [17072] LOG:  shutting down
+2021-03-29 23:39:08.523 JST [15816] LOG:  database system is shut down
