@@ -40,16 +40,17 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 # DATABASES
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
-
+    # "default": {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'innerDB',
+    #     'USER': 'JYDB',
+    #     'PASSWORD': ' ',
+    #     'HOST': '127.0.0.1',
+    #     'PORT': '5432',
+    # }
+    
 DATABASES = {
-    "default": {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'innerDB',
-        'USER': 'JYDB',
-        'PASSWORD': ' ',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
-    }
+    "default": env.db("DATABASE_URL", default = "postgres://postgres:wjsrkf501eo!@localhost:5432/toypro")
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
 

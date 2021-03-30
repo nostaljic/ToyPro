@@ -1,0 +1,3 @@
+cd /d E:\Users\Scorpion\anaconda3\envs\DjangoFirst\Personal\toyPro\TP\ToyPro
+deactivate
+activate DjangoFirst
